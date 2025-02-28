@@ -63,3 +63,6 @@ ORDER BY s.total_sales DESC;
 
 SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);
 
+## Performance Benchmark
+- **Before Optimization:** Query took ~5.4 sec 
+- **After Optimization:** Query now runs in ~1.2 sec  
