@@ -25,8 +25,8 @@ ORDER BY total_sales DESC;
     HAVING Clause Delay: Filtering occurs after aggregation, making it inefficient.
 
 
-**Optimized Query (Using CTE & Indexing)
-**
+Optimized Query (Using CTE & Indexing)
+
 WITH Sales AS (
     SELECT product_id, SUM(quantity * price) AS total_sales
     FROM Orders
